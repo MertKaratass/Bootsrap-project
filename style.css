@@ -1,0 +1,71 @@
+* {
+  border-color: black !important;
+}
+body {
+  overflow-x: hidden;
+}
+@media (min-width: 991.98px) {
+  .navbar-collapse ul {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991.98px) {
+  .card-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 770px) {
+  .card-text {
+    font-size: 20px;
+  }
+}
+.search {
+  background-color: gray;
+}
+
+.a {
+  border: none;
+}
+
+.img-col img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-body {
+  height: 300px;
+  overflow-y: scroll;
+}
+.card-body::-webkit-scrollbar {
+  display: none;
+}
+
+.fa-desktop {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: black;
+  cursor: pointer;
+}
+.descopt {
+  transform: translate(-50%, -50%);
+  top: 62%;
+  left: 57%;
+  background-color: rgba(0, 0, 0, 0.473);
+  display: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.descopt a {
+  text-decoration: none;
+  color: white;
+}
+
+.descopt a:hover {
+  color: rgb(173, 165, 165);
+}
+
+.fa-desktop:active + .descopt {
+  display: block;
+}
